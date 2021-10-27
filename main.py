@@ -28,7 +28,7 @@ METRICS = [
     "spend", # потраченные деньги (валюта задаётся в рекламном кабинете)
     ]
 
-# Сюда подставляете свой токен
+tg_token = os.getenv("TG_TOKEN")
 bot = telebot.TeleBot('2008258146:AAG5sE-crWZQLAGPR7URK1LwwzH7gwFNGgA')
 chat_ids = []
 
