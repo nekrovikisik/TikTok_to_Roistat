@@ -29,7 +29,7 @@ METRICS = [
     ]
 
 tg_token = os.getenv("TG_TOKEN")
-bot = telebot.TeleBot('2008258146:AAG5sE-crWZQLAGPR7URK1LwwzH7gwFNGgA')
+bot = telebot.TeleBot(tg_token)
 chat_ids = []
 
 
